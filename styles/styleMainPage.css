@@ -1,0 +1,34 @@
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.nameInput {
+    width: 186px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -93px;
+}
+
+.parResult {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.results {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+}

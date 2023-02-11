@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../styles/styleMainPage.css">
+    <title>JS Game</title>
+</head>
+<body>
+    <div class="main">
+        <h1 align="center">JS Game</h1>
+        <div class="nameInput">
+            <form action="https://localhost:8080/lvl1" method="get">
+                <label>
+                    Введите имя:<br>
+                    <input type="text" placeholder="Имя игрока" id="playerName"><br>
+                </label>
+                <input type="submit" value="Ввод" onclick="storeName()">
+            </form>
+            <div class="parResult">
+                <div class="results">
+                    <h3>Рекорды</h3>
+                    <div class="recordsLVL1">
+                        <h4>Уровень 1</h4>
+                        <table class="recordsTable" border="1px solid gray" id="rec_table1"></table>
+                        <script>
+                            let storage1 = JSON.parse(localStorage.getItem("records1"));
+                            let table1 = document.getElementById("rec_table1");
+                            let counter1 = 0;
+                            for (let key in storage1) {
+                                table1.insertRow().innerHTML = "<tr><td>" + key + "</td><td>" + storage1[key] + "</td></tr>";
+                                counter1++;
+                            }
+                        </script>
+                    </div>
+                    <div class="recordsLVL2">
+                        <h4>Уровень 2</h4>
+                        <table class="recordsTable" border="1px solid gray" id="rec_table2"></table>
+                        <script>
+                            let storage2 = JSON.parse(localStorage.getItem("records2"));
+                            let table2 = document.getElementById("rec_table2");
+                            let counter2 = 0;
+                            for (let key in storage2) {
+                                table2.insertRow().innerHTML = "<tr><td>" + key + "</td><td>" + storage2[key] + "</td></tr>";
+                                counter2++;
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scripts/mainPage.js"></script>
+</html>

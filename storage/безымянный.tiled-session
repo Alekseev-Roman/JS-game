@@ -1,0 +1,92 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "lvl2.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Все файлы (*)",
+    "fileStates": {
+        "Platformer 2D TilesSet #1 32x32.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "l.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lvl1.json": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 284,
+                "y": 268.33333333333326
+            }
+        },
+        "lvl1.json#tiles": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lvl1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 246.66666666666663,
+                "y": -14
+            }
+        },
+        "lvl2.json": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 308,
+                "y": 365.5
+            }
+        },
+        "lvl2.json#tiles": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tailes.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiles.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/home/greatunreal/LAB/OOP/game/texture",
+    "map.height": 15,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 15,
+    "openFiles": [
+        "lvl1.json",
+        "lvl2.json",
+        "tiles.json"
+    ],
+    "project": "безымянный.tiled-project",
+    "recentFiles": [
+        "lvl1.json",
+        "tiles.json",
+        "lvl2.json",
+        "tailes.tsx",
+        "lvl1.tmx",
+        "l.tsx",
+        "Platformer 2D TilesSet #1 32x32.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}

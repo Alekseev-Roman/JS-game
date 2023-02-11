@@ -1,0 +1,50 @@
+.canvasLVL1 {
+    width: 800px;
+    height: 800px;
+}
+
+.mainLVL1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.childLVL1 {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -600px;
+}
+
+.canvasLVL2 {
+    width: 800px;
+    height: 800px;
+}
+
+.mainLVL2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.childLVL2 {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -600px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 800px;
+}
